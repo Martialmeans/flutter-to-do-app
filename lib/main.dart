@@ -13,8 +13,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "to do app",
-      theme:
-          ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown)),
+      theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown)),
       home: const HomePage(),
     );
   }
