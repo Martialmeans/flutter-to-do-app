@@ -64,7 +64,7 @@ The following Dart packages are used in this project:
 
 To add these packages to your Flutter project, ensure your pubspec.yaml file includes:
 
-##### Dependencies:
+#### Dependencies:
 
     dependencies:
       flutter:
