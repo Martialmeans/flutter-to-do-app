@@ -12,10 +12,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var _mybox = Hive.box('hive_box');
+  final _mybox = Hive.box('hive_box');
 
   Database dB = Database();
 
+  @override
   void initState() {
     if (_mybox.get("TODOLIST") == null) {
       dB.createInitialData();
