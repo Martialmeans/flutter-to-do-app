@@ -97,9 +97,9 @@ To add these packages to your Flutter project, ensure your pubspec.yaml file inc
 
 ## Future Enhancements
 
-Task categorization (e.g., work, personal).
-Add notifications for task reminders.
-Enhance the UI with animations and themes.
+- Task categorization (e.g., work, personal).
+- Add notifications for task reminders.
+- Enhance the UI with animations and themes.
 
 ## Contributing
 
