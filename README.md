@@ -72,7 +72,9 @@ To add these packages to your Flutter project, ensure your pubspec.yaml file inc
       flutter_slidable: ^3.1.1
       hive: ^2.2.3
       hive_flutter: ^1.1.0
-    Dev Dependencies:
+      
+#### Dev Dependencies:
+
     dev_dependencies:
       flutter_test:
         sdk: flutter
