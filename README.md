@@ -82,6 +82,8 @@ To add these packages to your Flutter project, ensure your pubspec.yaml file inc
       
 ## App Preview
 
+![Flutter To-Do App Preview](assets/flutter-to-do-app.jpg)
+
 ## How to Use
 
 1. Add a new task using the + button.
@@ -90,8 +92,8 @@ To add these packages to your Flutter project, ensure your pubspec.yaml file inc
 
 ## Built With
 
-Flutter - Framework for building the app.
-Dart - Programming language for Flutter.
+- Flutter - Framework for building the app.
+- Dart - Programming language for Flutter.
 
 ## Future Enhancements
 
