@@ -50,7 +50,7 @@ dev_dependencies:
  
 App Preview
 
-
+assets/flutter-to-do-app.jpg
 
 How to Use
 Add a new task using the + button.
