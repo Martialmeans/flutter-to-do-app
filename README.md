@@ -1,9 +1,9 @@
-Flutter To-Do App
+###Flutter To-Do App
 
-Overview
+##Overview
 This Flutter to-do app allows users to create, mark, and delete tasks efficiently. Designed with simplicity and functionality in mind, it offers an intuitive interface for task management.
 
-Features
+#Features
 Add new tasks.
 Mark tasks as completed or pending.
 Delete tasks with a swipe gesture.
@@ -50,7 +50,7 @@ dev_dependencies:
  
 App Preview
 
-assets/flutter-to-do-app.jpg
+![Flutter To-Do App Preview](assets/flutter-to-do-app.jpg)
 
 How to Use
 Add a new task using the + button.
