@@ -1,14 +1,20 @@
 # Flutter To-Do App
+
 ## Overview
+
 This Flutter to-do app allows users to create, mark, and delete tasks efficiently. Designed with simplicity and functionality in mind, it offers an intuitive interface for task management.
 
-Features
-Add new tasks.
-Mark tasks as completed or pending.
-Delete tasks with a swipe gesture.
-Interactive and visually appealing UI.
-Getting Started
-1. Prerequisites
+## Features
+
+- Add new tasks.
+- Mark tasks as completed or pending.
+- Delete tasks with a swipe gesture.
+- Interactive and visually appealing UI.
+
+## Getting Started
+
+### Prerequisites
+
 Flutter installed on your system (installation guide).
 An IDE (like Android Studio, IntelliJ, or VS Code) with Flutter/Dart plugins installed.
 2. Installation
