@@ -23,7 +23,7 @@ An IDE (like Android Studio, IntelliJ, or VS Code) with Flutter/Dart plugins ins
 Clone the repository:
 
   ```bash
-  git clone <repository-link>
+  git clone https://github.com/Martialmeans/flutter-to-do-app.git
   ```
 
 Navigate to the project directory:
