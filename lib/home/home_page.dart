@@ -75,10 +75,8 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         foregroundColor: Theme.of(context).colorScheme.primary,
-        title: const Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [Text("To do"), Icon(Icons.note_rounded)],
-        ),
+        iconTheme: IconThemeData(color: Theme.of(context).colorScheme.primary),
+        title: const Text("Todo app"),
         centerTitle: true,
       ),
       // Create list view builder to create the todo tiles
@@ -102,8 +100,13 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {
           createNewTask();
         },
-        shape: const CircleBorder(),
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        foregroundColor: Theme.of(context).colorScheme.primary,
         child: const Icon(Icons.add),
+      ),
+      // For future functionality
+      drawer: Drawer(
+        backgroundColor: Theme.of(context).colorScheme.primaryFixedDim,
       ),
     );
   }

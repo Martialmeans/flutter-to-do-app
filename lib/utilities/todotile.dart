@@ -21,15 +21,18 @@ class Todotile extends StatelessWidget {
       child: Slidable(
         endActionPane: ActionPane(motion: const StretchMotion(), children: [
           SlidableAction(
+            borderRadius: BorderRadius.circular(10),
             onPressed: deleteTask,
             icon: Icons.delete,
-            backgroundColor: Colors.red,
+            backgroundColor: Theme.of(context).colorScheme.primary,
           )
         ]),
         child: Container(
           padding: const EdgeInsets.all(24.0),
           decoration: BoxDecoration(
-              color: Theme.of(context).colorScheme.inversePrimary),
+            color: Theme.of(context).colorScheme.inversePrimary,
+            borderRadius: BorderRadius.circular(10),
+          ),
           child: Row(
             children: [
               Checkbox(
