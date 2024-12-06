@@ -24,4 +24,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/flutter-to-do-app.jpg
+    - assets/samsung-galaxy-slow-reveal.gif

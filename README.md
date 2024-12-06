@@ -84,7 +84,7 @@ To add these packages to your Flutter project, ensure your pubspec.yaml file inc
       
 ## App Preview
 
-![Flutter To-Do App Preview](assets/flutter-to-do-app.jpg)
+![Flutter To-Do App Preview](assets/samsung-galaxy-slow-reveal.gif)
 
 ## How to Use
 
