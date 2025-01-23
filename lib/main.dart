@@ -6,8 +6,9 @@ import 'package:flex_color_scheme/flex_color_scheme.dart';
 
 void main() async {
   await Hive.initFlutter();
-  // ignore: unused_local_variable
-  var box = await Hive.openBox('hive_box');
+  // ignore: unused_local_variable, it is not good practice to have variable that is not being use.
+  // it will be use when we implement more hive database options.
+  var toDoBox = await Hive.openBox('hive_box');
   runApp(const MainApp());
 }
 
@@ -16,10 +17,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // The application follows the system theme.
+    // If system theme is light then application will be in light theme and viceversa.
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "to do app",
-      theme: AppTheme.light,
+      theme: AppTheme.lightTheme,
       darkTheme: AppTheme.dark,
       themeMode: ThemeMode.system,
       home: const HomePage(),
@@ -27,9 +30,9 @@ class MainApp extends StatelessWidget {
   }
 }
 
-sealed class AppTheme {
+sealed class AppTheme { 
   // The defined light theme.
-  static ThemeData light = FlexThemeData.light(
+  static ThemeData lightTheme = FlexThemeData.light(
     scheme: FlexScheme.deepPurple,
     subThemesData: const FlexSubThemesData(
       interactionEffects: true,
